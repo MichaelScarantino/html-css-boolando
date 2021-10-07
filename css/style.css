@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    font-family: arial;
+}
+img{
+    width: 100%;
+}
+
+/* product */
+.product{
+    width: 33%;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+
+.img-product{
+    position: relative;
+}
+
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.img-product:hover .img-hover{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* hearts */
+.hearts{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 5px 12px;
+    font-size: 25px;
+    background-color: white;
+}
+
+/* discount and bearableness */
+.discount-and-bearable{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.box{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.discount{
+    background-color: #eb0b37;
+}
+
+.bearableness{
+    background-color: green;
+    
+    
+}
+
+/* description */
+.description{
+    margin-top: 5px;
+}
+
+.brand, .cost{
+    font-size: 14px;
+}
+
+
+.dress-description, .red{
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
