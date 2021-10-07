@@ -22,6 +22,7 @@ img{
     width: 33%;
     display: inline-block;
     margin-top: 30px;
+    padding: 5px;
     
 }
 
@@ -29,6 +30,7 @@ img{
     position: relative;
 }
 
+/* img hover  */
 .img-hover{
     position: absolute;
     top: 0;
@@ -36,7 +38,7 @@ img{
     display: none;
 }
 
-.img-product:hover .img-hover{
+.hearts, .discount-and-bearable, .img-product:hover .img-hover{
     display: inline-block;
     cursor: pointer;
 }
