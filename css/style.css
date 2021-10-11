@@ -32,15 +32,15 @@ img{
 
 /* img hover  */
 .img-hover{
-    position: absolute;
-    top: 0;
-    left: 0;
     display: none;
 }
 
 .hearts, .discount-and-bearable, .img-product:hover .img-hover{
     display: inline-block;
     cursor: pointer;
+}
+.img-product:hover .first-image{
+    display: none;
 }
 
 /* hearts */
